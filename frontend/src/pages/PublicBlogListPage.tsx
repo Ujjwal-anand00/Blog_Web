@@ -125,9 +125,9 @@ export const PublicBlogListPage: React.FC = () => {
           
           {/* Main heading with gradient text */}
           <h1 className="text-6xl md:text-8xl font-black mb-8 leading-tight animate-slide-up">
-            <span className="block text-white">Discover</span>
+            <span className="block text-white">Evoking</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 animate-gradient">
-              Amazing Stories
+              creativity from emptiness
             </span>
           </h1>
           
@@ -309,7 +309,7 @@ export const PublicBlogListPage: React.FC = () => {
             {
               icon: PenTool,
               title: "Intuitive Writing",
-              description: "Advanced BlogSpace with live preview, syntax highlighting, and collaborative features",
+              description: "Advanced TypeVoid with live preview, syntax highlighting, and collaborative features",
               color: "from-blue-500 to-cyan-500",
               bgColor: "from-blue-50 to-cyan-50"
             },
@@ -445,7 +445,7 @@ export const PublicBlogListPage: React.FC = () => {
         role: "Tech Blogger",
         avatar: "SJ",
         rating: 5,
-        review: "This platform has transformed how I share my tech insights. The BlogSpace is a game-changer, and the community engagement is phenomenal!",
+        review: "This platform has transformed how I share my tech insights. The TypeVoid is a game-changer, and the community engagement is phenomenal!",
         bgGradient: "from-blue-500 to-cyan-500"
       },
       {
@@ -624,7 +624,7 @@ export const PublicBlogListPage: React.FC = () => {
           <div className="lg:col-span-2">
             <div className="mb-8">
               <h3 className="text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-                BlogSpace
+                TypeVoid
               </h3>
               <p className="text-gray-300 text-lg leading-relaxed max-w-md">
                 Empowering writers and readers to share stories, discover new perspectives, and build meaningful connections through the power of words.
@@ -639,8 +639,8 @@ export const PublicBlogListPage: React.FC = () => {
                   { icon: Twitter, href: "#", color: "hover:text-blue-400" },
                   { icon: Facebook, href: "#", color: "hover:text-blue-600" },
                   { icon: Instagram, href: "#", color: "hover:text-pink-500" },
-                  { icon: Linkedin, href: "#", color: "hover:text-blue-500" },
-                  { icon: Github, href: "#", color: "hover:text-gray-400" }
+                  { icon: Linkedin, href: "https://www.linkedin.com/in/ujjwal-anand63/", color: "hover:text-blue-500" },
+                  { icon: Github, href: "https://github.com/Ujjwal-anand00", color: "hover:text-gray-400" }
                 ].map((social, index) => (
                   <a
                     key={index}
@@ -684,15 +684,15 @@ export const PublicBlogListPage: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center text-gray-300">
                 <Mail className="w-5 h-5 mr-3 text-purple-400" />
-                <span>hello@blogspace.com</span>
+                <span>hello@typevoid.com</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <Phone className="w-5 h-5 mr-3 text-purple-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 666123-4567</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="w-5 h-5 mr-3 text-purple-400" />
-                <span>San Francisco, CA</span>
+                <span>Punjab</span>
               </div>
             </div>
             
@@ -717,7 +717,7 @@ export const PublicBlogListPage: React.FC = () => {
         <div className="border-t border-white/20 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-300 mb-4 md:mb-0">
-              <p>&copy; 2024 BlogSpace. All rights reserved.</p>
+              <p>&copy; 2025 TypeVoid. All rights reserved.</p>
             </div>
             <div className="flex space-x-6">
               {[

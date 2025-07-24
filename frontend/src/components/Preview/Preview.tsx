@@ -62,7 +62,7 @@ export const Preview = ({
           }}
         >
           <div className="prose-headings:text-gray-900 prose-p:text-gray-700 prose-a:text-blue-600 prose-strong:text-gray-900 prose-code:text-purple-600 prose-code:bg-purple-50 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-blockquote:border-l-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:text-gray-700">
-            <ReactMarkdown>{content || '# Welcome to BlogSpace\n\nStart typing in the editor to see your content rendered here!'}</ReactMarkdown>
+            <ReactMarkdown>{content || '# Welcome to TypeVoid\n\nStart typing in the editor to see your content rendered here!'}</ReactMarkdown>
           </div>
         </div>
         <div className="absolute bottom-4 right-4 flex items-center space-x-2">
