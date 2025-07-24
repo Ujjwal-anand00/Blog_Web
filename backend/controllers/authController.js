@@ -9,6 +9,9 @@ const generateAccessToken = (userId) => {
 const generateRefreshToken = (userId) => {
   return jwt.sign({ userId }, process.env.JWT_SECRET, { expiresIn: '7d' });
 };
+if (!process.env.JWT_SECRET) {
+  throw new Error("JWT_SECRET not defined in environment variables");
+}
 
 const register = async (req, res) => {
   try {
