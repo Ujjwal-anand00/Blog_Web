@@ -10,7 +10,13 @@ const blogRoutes = require('./routes/blogs');
 const app = express();
 
 // Middleware
-app.use(cors({ origin: true, credentials: true }));
+app.use(
+  cors({
+    origin: process.env.CLIENT_ORIGIN,
+    methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 // Routes
