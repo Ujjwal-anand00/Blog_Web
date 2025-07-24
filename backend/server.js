@@ -12,11 +12,12 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_ORIGIN,
+    origin: "https://typevoid-blog-lxdmsdvzb-ujjwal-anands-projects-8cffef82.vercel.app", // your Vercel frontend URL
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    credentials: true,
+    credentials: true, // only if using cookies or sessions
   })
 );
+app.options("*", cors());
 app.use(express.json());
 
 // Routes
